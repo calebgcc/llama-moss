@@ -18,9 +18,6 @@ dataset_id = "calebgcc/llama-moss"
 
 dataset = load_dataset(dataset_id)
 
-print(dataset['train'][140]['label'])
-dataset['train'][140]['image'].show()
-
 label_mapping = {
     0: '{"actions":["down", "down"]}',
     1: '{"actions":["left", "down", "down"]}',
